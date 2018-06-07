@@ -1,0 +1,115 @@
+@charset "UTF-8";
+html, body, ul, li {
+  margin: 0; }
+
+h1 {
+  font-size: 30px;
+  font-style: normal; }
+
+a {
+  text-decoration: none; }
+
+h1, h2, h3 {
+  font-family: Times, serif;
+    font-family-font-size: 250%; }
+
+p {
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  font-size: 16px; }
+
+.gradient {
+  height: 80px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f7f7f7+100 */
+  background: #ffffff;
+  /* Old browsers */
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f7f7f7));
+  background: -o-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #f7f7f7 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7',GradientType=0 );
+  /* IE6-9 */ }
+
+#head {
+  font-family: Times, serif;
+  font-size: 20pt;
+  color: #666B6F;
+  margin-left: 30px; }
+
+header {
+  height: 53px;
+  background: #EAECF0; }
+
+.main {
+  border: 1px solid #EAECF0;
+  background: #F8F9FA;
+  padding: 20px; }
+
+.menu_content {
+  border: 1px solid #EAECF0;
+  padding: 20px; }
+
+.foto {
+  border: 1px solid #EAECF0;
+  background: #F8F9FA;
+  display: block;
+  margin: 0 auto; }
+
+.logo {
+  height: 53px; }
+
+footer {
+  height: 60px;
+  background: #EAECF0; }
+
+.footer {
+  text-align: center; }
+
+.hide {
+  display: none; }
+
+.hide + label ~ div {
+  display: none; }
+
+/* оформляем текст label */
+.hide + label {
+  padding: 0;
+  display: inline-block; }
+
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+  border-bottom: 0; }
+
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+  display: block; }
+
+.hide + label:before {
+  content: url("../img/arrow_down.svg");
+  margin-right: 10px;
+  cursor: pointer; }
+
+.hide:checked + label:before {
+  content: url("../img/arrow_upp.svg");
+  cursor: pointer; }
+
+.head2 {
+  font-family: Times, serif;
+  font-size: 25px;
+  cursor: pointer; }
+
+.wiki {
+  font-family: Times, serif;
+  font-size: 20pt;
+  color: #666B6F;
+  text-align: center; }
+.nav_item {
+  display: inline-block;
+  padding-right: 10px;
+
+}
+.nav li {
+  list-style: none;
+}
